@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_alert"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingStart="28dp"
+    android:paddingTop="40dp"
+    android:paddingEnd="28dp"
+    android:paddingBottom="32dp">
+
+    <ImageView
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:contentDescription="Aviso"
+        android:src="@drawable/ic_warning" />
+
+    <TextView
+        android:id="@+id/alertTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:letterSpacing="-0.01"
+        android:text="Tu familia te está buscando"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/alertMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:text="Tu tutor envió un aviso desde el panel familiar."
+        android:textColor="#FFD9DF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/alertTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#F9A8B8"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/call911Button"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="Llamar al 911"
+        android:textColor="#8C0F2E"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="18dp"
+        android:elevation="8dp" />
+
+    <Button
+        android:id="@+id/callFamilyButton"
+        style="@style/Widget.GeoSms911.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Llamar a mi tutor"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        app:strokeColor="#FF9FB2" />
+
+    <Button
+        android:id="@+id/shareLocationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="Compartir mi ubicación"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#7F1D36"
+        app:cornerRadius="14dp" />
+
+    <Button
+        android:id="@+id/safeButton"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Estoy bien, cerrar"
+        android:textColor="#FFD9DF"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="El marcador se abre con el número listo; la llamada la confirmas tú."
+        android:textColor="#E8A7B4"
+        android:textSize="10sp" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+# Entorno y secretos
+.env
+*.env
+!.env.example
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Base de datos local
+*.db
+*.db-wal
+*.db-shm
+backend/*.db
+
+# Simulador
+simulator/.device.json
+
+# Android / Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/*.iml
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Sistema
+Thumbs.db
+.DS_Store

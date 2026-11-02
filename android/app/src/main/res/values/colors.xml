@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#070D18</color>
+    <color name="surface">#101B2E</color>
+    <color name="surface_2">#172541</color>
+    <color name="input_bg">#0B1424</color>
+    <color name="primary">#E11D48</color>
+    <color name="primary_dark">#9F1239</color>
+    <color name="text">#E8EEFC</color>
+    <color name="muted">#93A4BF</color>
+    <color name="ok">#22C55E</color>
+    <color name="warn">#F59E0B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="line">#26344C</color>
+    <color name="line_soft">#1B2740</color>
+    <color name="alert_bg_start">#5C0A24</color>
+    <color name="alert_bg_end">#0B0508</color>
+    <color name="error">#FECDD3</color>
+</resources>
